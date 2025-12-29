@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f4efe9;
+  font-family: 'Cormorant Garamond', serif;
+  color: #3b2f2f;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* LOCK SCREEN */
+.lock-container {
+  background: #fff;
+  padding: 60px;
+  border-radius: 12px;
+  box-shadow: 0 0 40px rgba(0,0,0,0.1);
+}
+
+.heart-lock {
+  font-size: 80px;
+  color: darkred;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+input {
+  padding: 10px;
+  margin-top: 20px;
+  border: 1px solid #aaa;
+  font-family: inherit;
+}
+
+/* ENVELOPE */
+.envelope {
+  background: #fffaf3;
+  padding: 50px;
+  border: 2px solid #c2b280;
+  box-shadow: 0 0 30px rgba(0,0,0,0.1);
+}
+
+/* LETTER */
+.letter {
+  max-width: 700px;
+  background: #fffdf8;
+  padding: 60px;
+  box-shadow: 0 0 50px rgba(0,0,0,0.15);
+  text-align: left;
+}
+
+.letter h1 {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+}
+
+.letter p {
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.quote {
+  font-style: italic;
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* MUSIC BOX */
+.music-box {
+  margin-top: 40px;
+}
+
+#play-music {
+  font-size: 30px;
+  padding: 15px 25px;
+  border-radius: 50%;
+  border: none;
+  background: #c2b280;
+  cursor: pointer;
+}
