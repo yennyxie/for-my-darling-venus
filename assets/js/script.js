@@ -18,8 +18,3 @@ nicknameInput.addEventListener("input", () => {
     document.getElementById("letter-screen").classList.remove("hidden");
   }
 });
-
-// MUSIC BOX
-playBtn.addEventListener("click", () => {
-  music.play();
-});
